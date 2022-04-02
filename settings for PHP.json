@@ -1,0 +1,36 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "afterDelay",
+    //PHP
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.formatOnSave": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/vendor/*/**": true
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "phpSniffer.autoDetect": true,
+    "phpSniffer.run": "onType",
+    "phpSniffer.standard": "PSR12",
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "[php]": {
+        "editor.defaultFormatter": "wongjn.php-sniffer"
+    },
+    //PHP DEBUG
+    "php.debug.executablePath": ""
+    //PHP DEBUG
+}
